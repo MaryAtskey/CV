@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1 {
+    font-family: 'Overpass', sans-serif;
+    font-size: 28pt;
+    font-weight: 700;
+    color: #474e5d;
+    text-align: left;
+    line-height: 0px;
+}
+
+h2 {
+    font-family: 'Overpass', sans-serif;
+    font-size: 26pt;
+    font-weight: 500;
+    color: #474e5d;
+    text-align: left;
+    line-height: 0px;
+}
+
+h3 {
+    font-family: 'Overpass', sans-serif;
+    font-size: 24pt;
+    font-weight: 500;
+    color: #474e5d;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+}
+
+h4 {
+    font-family: 'Overpass', sans-serif;
+    font-size: 18pt;
+    font-weight: 500;
+    color: #474e5d;
+    text-transform: uppercase;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    font-size: 16pt;
+    color: #474e5d;
+}
+
+
+/* Media queries - Change font size in headings and body text for responsive version on screens less than 600px wide */
+
+@media screen and (max-width: 600px) {
+
+    /* Make font size of the headings smaller */
+    h1 {
+        font-size: 24pt;
+    }
+
+    h2 {
+        font-size: 22pt;
+    }
+
+    h3 {
+        font-size: 22pt;
+    }
+
+    h4 {
+        font-size: 18pt;
+    }
+
+    /* Make font size of the body text smaller */
+    body {
+        font-size: 14pt;
+    }
+}

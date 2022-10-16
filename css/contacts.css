@@ -1,0 +1,88 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    justify-content: center;
+}
+
+.contacts-title {
+    display: flex;
+    font-family: 'Overpass', sans-serif;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.contacts-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: -30px;
+}
+
+.download-text {
+    display: flex;
+    font-family: 'Overpass', sans-serif;
+    font-size: 20pt;
+    justify-content: center;
+    text-align: center;
+    margin-top: -90px;
+    margin-bottom: 36px;
+}
+
+.download-text a {
+    text-decoration: none;
+    color: rgb(198, 10, 9);
+}
+
+.social {
+    display: flex;
+    height: 190px;
+    background-color: white;
+    justify-content: center;
+}
+
+.image-contact {
+    width: 122px;
+    height: 125px;
+    padding: 10px;
+    margin-top: -60px;
+    transition: 1s;
+}
+
+.image-contact:hover {
+    transform: scale(1.2);
+}
+
+
+/* Responsive 'Contacts' block on screens less than 600px wide */
+
+@media screen and (max-width: 600px) {
+
+    /* Make icons smaller */
+    .image-contact {
+        width: 50px;
+        height: 50px;
+    }
+
+    .image-contact:hover {
+        transform: scale(1.5);
+    }
+
+    /* Change the position of text */
+    .contacts {
+        margin-top: -20px;
+        height: 260px;
+    }
+
+    .download-text {
+        font-size: 16pt;
+        margin-top: -160px;
+        margin-bottom: 36px;
+    }
+
+    .contacts-title {
+        margin-bottom: 16px;
+    }
+}

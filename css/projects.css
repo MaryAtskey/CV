@@ -1,0 +1,117 @@
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 560px;
+    background-color: white;
+}
+
+.projects-title {
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    margin-top: 10px;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-direction: column;
+    justify-content: space-between;*/
+    justify-content: space-evenly;
+    width: 100%;
+    height: 420px;
+    background-color: white;
+}
+
+.box-project {
+    display: flex;
+    flex-wrap: wrap;
+    width: 23%;
+    height: 400px;
+    background-color: white;
+    border: solid 2px #474e5d;
+    border-radius: 14px;
+    margin-top: 20px;
+}
+
+.image-project {
+    display: flex;
+    width: 250px;
+    height: 100px;
+    justify-content: center;
+    margin: auto;
+}
+
+.title-of-project {
+    display: flex;
+    width: 100%;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 500;
+    font-size: 16pt;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 6px 10px 0px;
+}
+
+.box-project-text {
+    font-family: 'Overpass', sans-serif;
+    width: 100%;
+    font-size: 16pt;
+    text-align: left;
+    margin: 6px 10px 0px;
+}
+
+.visit {
+    width: 70%;
+    margin-left: 140px;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-bottom: -40px;
+    text-align: right;
+}
+
+.visit a {
+    font-family: 'Overpass', sans-serif;
+    color: rgb(158, 10, 9);
+    font-weight: 500;
+    font-size: 16pt;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: right;
+}
+
+
+/* Responsive 'Projects' block on screens less than 600px wide */
+
+@media screen and (max-width: 600px) {
+
+    /* Place the timelime to the left */
+    .projects {
+        height: auto;
+    }
+
+    .projects-list {
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        margin-top: -10px;
+    }
+
+    .box-project {
+        width: 80%;
+    }
+
+    /* Make font size in the projects boxes smaller */
+    .box-project-text {
+        font-size: 14pt;
+    }
+
+    .visit a {
+        font-size: 14pt;
+    }
+}
