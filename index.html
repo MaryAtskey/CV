@@ -1,0 +1,326 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<html prefix="og: http://ogp.me/ns#">
+
+<head>
+  <!-- Meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="img/favicon-img.ico" rel="icon" type="image/x-icon">
+  <title> Maryia Tamasheuskaya - Front-end developer </title>
+  <meta name="title" content="Maryia Tamasheuskaya - Front-end development">
+  <meta name="description" content="Development of applications and websites">
+  <meta name="keywords"
+    content="Front-end development, fron-end developer, websites development, applications development">
+  <meta property="og:title" content="Maryia Tamasheuskaya - Front-end development">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <!--<meta name="theme-color" content="#fafafa">-->
+
+  <!-- icons -->
+  <script src="https://kit.fontawesome.com/af8762e842.js" crossorigin="anonymous"></script>
+
+  <!-- to the top btn -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 140) {
+          $('.scrollup').fadeIn();
+        } else {
+          $('.scrollup').fadeOut();
+        }
+      });
+
+      $('.scrollup').click(function () {
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+      });
+
+    });
+  </script>
+
+
+  <!-- css files -->
+  <link rel="stylesheet" href="css/headings.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/about-me.css">
+  <link rel="stylesheet" href="css/my-way.css">
+  <link rel="stylesheet" href="css/projects.css">
+  <link rel="stylesheet" href="css/contacts.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/top-button.css">
+  <link rel="stylesheet" href="css/flag-icon.css">
+
+</head>
+
+<body>
+
+  <!-- Header / banner / navigation -->
+  <header>
+    <div class="full-width banner flex-column">
+      <div class="banner-text-box">
+        <p class="banner-text"> .Hey, I am {</p>
+        <h1><span style="color: white; opacity: 1; font-weight: 700;">&nbsp;&nbsp;&nbsp; Maryia
+            Tamasheuskaya:</span></h1>
+        <h2><span style="color: white; opacity: 1; font-weight: 500;">&nbsp;&nbsp;&nbsp; Student, Front-end
+            Developer;</span></h2>
+        <p class="banner-text">}</p>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#about-me">About me</a></li>
+          <li><a href="#my-way">My way</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contacts">Contacs</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- About me block -->
+  <div class="about-me">
+    <div class="about-me-title">
+      <h3><a name="about-me">About me</a></h3>
+    </div>
+    <div class="about-me-text">
+      <p>Hello! I'm Maryia Tamasheuskaya from Malmö. 2018 I moved to Swedem from Belarus where I was born, grew up,
+        finished school and university. I am a certified linguist and translator. In the past, I
+        was also a content manager and copywriter, which predetermined my future choice of profession. Now I study at
+        Medieistitutet to become an outstanding front-end
+        developer.
+      </p>
+    </div>
+
+    <!-- Hobby icons -->
+    <div class="hobby">
+      <div class="hobby-box">
+        <h4>Hobby</h4>
+        <div class="col1">
+          <p><i class="fa-solid fa-plane"></i>&nbsp;Travelling</p>
+          <p><i class="fa-solid fa-person-hiking"></i>&nbsp;Hiking</p>
+          <p><i class="fa-solid fa-guitar"></i>&nbsp;Concerts</p>
+          <p><i class="fa-solid fa-film"></i>&nbsp;Moovies</p>
+        </div>
+      </div>
+      <div class="languages">
+        <h4>Languages</h4>
+        <div class="col2">
+          <p><span class="flag-icon flag-icon-by"></span>&nbsp;Belarusian</p>
+          <p><span class="flag-icon flag-icon-ru"></span>&nbsp;Russian</p>
+          <p><span class="flag-icon flag-icon-gb"></span>&nbsp;English</p>
+          <p><span class="flag-icon flag-icon-se"></span>&nbsp;Swedish</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Skills panel -->
+  <div class="box-skills">
+    <div class="box-hard-skills">
+      <h4>Hard skills</h4>
+      <p style="margin-top: 10px; margin-bottom: -2px;">HTML</p>
+      <div class="hard-skills-line">
+        <div class="hard-skills html">90%</div>
+      </div>
+      <p style="margin-top: 10px; margin-bottom: -2px;">CSS</p>
+      <div class="hard-skills-line">
+        <div class="hard-skills css">80%</div>
+      </div>
+      <p style="margin-top: 10px; margin-bottom: -2px;">JavaScript</p>
+      <div class="hard-skills-line">
+        <div class="hard-skills js">60%</div>
+      </div>
+      <p style="margin-top: 10px; margin-bottom: -2px;">PHP</p>
+      <div class="hard-skills-line">
+        <div class="hard-skills php">30%</div>
+      </div>
+    </div>
+    <div class="box-soft-skills">
+      <h4>Soft skills</h4>
+      <p style="margin-top: 10px; margin-bottom: -2px;">Creativity</p>
+      <div class="soft-skills-line">
+        <div class="soft-skills creativity">90%</div>
+      </div>
+      <p style="margin-top: 10px; margin-bottom: -2px;">Teamwork</p>
+      <div class="soft-skills-line">
+        <div class="soft-skills teamwork">80%</div>
+      </div>
+      <p style="margin-top: 10px; margin-bottom: -2px;">Adaptability</p>
+      <div class="soft-skills-line">
+        <div class="soft-skills adaptability">90%</div>
+      </div>
+      <p style="margin-top: 10px; margin-bottom: -2px;">Emotional intelligence</p>
+      <div class="soft-skills-line">
+        <div class="soft-skills emotional-intelligence">80%</div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- My way block -->
+  <div class="my-way">
+    <div class="my-way-title">
+      <h3><a name="my-way"><span style="color: white;">My way</span></a></h3>
+    </div>
+
+    <!-- Timeline -->
+    <div class="timeline">
+      <div class="container left">
+        <div class="content">
+          <h2>September 2022</h2>
+          <p>I started studying front-end development at Medieistitutet in Malmö, Sweden.
+          </p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2>2018-2021</h2>
+          <p>I mooved to Lund, then Malmö, Sweden. I started with the cources in Swedish language. Also I finished
+            course in Programmong (Java) and participated in "Kick-start program" drived by International Citizen Hub in
+            Lund that intrtroduced Swedish labour market and culture to newcomers.
+          </p>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="content">
+          <h2>2012-2018</h2>
+          <p>I returned to Minsk and continued working as content manager, copywriter, site administrator in the
+            following companies:
+          <ul>
+            <Li>2013 - <a href="https://www.biglion.ru/">OOO “Reneview”</a> (Advertising and marketing)</Li>
+            <li>2013 - <a href="http://www.realestateru.ca/ ">“CIR REALTY”</a> (Real estate business in Calgary)</Li>
+            <Li>2014-2016 - <a href="https://vmeste-studio.by">Company group “VMESTE”</a> Graphic and web design,
+              advertising, marketing, printing, web development</Li>
+            <li>2016-2018 - <a href="https://branch-design.by">“Branch Design”</a> Graphic and web design, branding</Li>
+            <li>2018 - OOO “ROKETSAENS” / “GIK Media”, project <a href="https://splicer.org">"Splicer"</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2>2011-2012</h2>
+          <p>I mooved to Kiev, the Ukraine. I started working as a content manager and copywriter in onlile-shop
+            “Octavarium” that specialized in the sale of sanitary / plumbing products.
+          </p>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="content">
+          <h2>2005-2010</h2>
+          <p>I mooved to Minsk, the capital of Belarus. I studied five years at ENVILA Women's Institute, and got Master
+            degree in Science in modern foreign languages (English / German). As I wrote above I am a certified linguist
+            and translator.
+          </p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2>May 17th, 1987</h2>
+          <p>The day it all started. I was born in the small Belarusian town of Zhlobin. I spent my childhood there and
+            graduated from high school.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Projects block -->
+  <div class="projects">
+    <div class="projects-title">
+      <h3><a name="projects">Projects</a></h3>
+    </div>
+    <div class="projects-list">
+      <div class="box-project">
+        <img class="image-project" src="icons/company-logo-1.png" alt="company-logo-1">
+        <p class="title-of-project">Project #1</p>
+        <p class="box-project-text">There are no projects yet but I'll fix it soon</p>
+        <p class="visit"><a href="#">Visit website</a></p>
+      </div>
+      <div class="box-project">
+        <img class="image-project" src="icons/company-logo-1.png" alt="company-logo-2">
+        <p class="title-of-project">Project #2</p>
+        <p class="box-project-text">There are no projects yet but I'll fix it soon</p>
+        <p class="visit"><a href="#">Visit website</a></p>
+      </div>
+      <div class="box-project">
+        <img class="image-project" src="icons/company-logo-1.png" alt="company-logo-3">
+        <p class="title-of-project">Project #3</p>
+        <p class="box-project-text">There are no projects yet but I'll fix it soon</p>
+        <p class="visit"><a href="#">Visit website</a></p>
+      </div>
+      <div class="box-project">
+        <img class="image-project" src="icons/company-logo-1.png" alt="company-logo-4">
+        <p class="title-of-project">Project #4</p>
+        <p class="box-project-text">There are no projects yet but I'll fix it soon</p>
+        <div class="visit"><a href="#">Visit website</a></div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Contacts block -->
+  <div class="contacts">
+    <div class="contacts-title">
+      <h3><a name="contacts">Contacts</a></h3>
+    </div>
+    <div class="contacts-text">
+      <p>Do you need new website or application? Let's do it together! Feel free to contact me through:</p>
+    </div>
+  </div>
+
+  <!-- Social icons and links -->
+  <div class="social">
+    <a href="mailto:m.tamasheuskaya@gmail.com"><img class="image-contact" src="icons/email-256.ico"
+        alt="email-icon"></a>
+    <a href="skype:maryatskey?chat"><img class="image-contact" src="icons/skype-256.ico" alt="skype-icon"></a>
+    <a href="https://www.linkedin.com/in/maria-tomashevskaya/"><img class="image-contact" src="icons/linkedin-256.ico"
+        alt="linkedin-icon"></a>
+    <a href="https://github.com/MaryAtskey"><img class="image-contact" src="icons/github-256.ico" alt="github-icon"></a>
+    <a href="https://twitter.com/Maryia86504313"><img class="image-contact" src="icons/twitter-256.ico"
+        alt="twitter-icon"></a>
+    <a href="https://www.facebook.com/MaryAtskey"><img class="image-contact" src="icons/facebook-256.ico"
+        alt="facebook-icon"></a>
+    <a href="https://www.instagram.com/maryatskey/"><img class="image-contact" src="icons/instagram-256.ico"
+        alt="instagram-icon"></a>
+  </div>
+
+  <!-- Download CV -->
+  <div class="download-text">
+    <p>You can also <span
+        style="text-transform: uppercase; text-decoration: none; color: rgb(198, 10, 9); font-weight: 700;"><a href="#">
+          download my CV</a></span></p>
+  </div>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-text-box">
+      <div class="site-map">
+        <p><a href="#about-me">About me</a></p>
+        <p><a href="#my-way">My way</a></p>
+        <p><a href="#projects">Projects</a></p>
+      </div>
+      <p class="footer-text"> &#169; 2022 Maryia Tamasheuskaya</p>
+    </div>
+  </footer>
+
+
+  <!-- "To the top" button -->
+  <a href="#" class="scrollup"></a>
+
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
