@@ -108,11 +108,15 @@ header {
     .menu {
         width: 94%;
         height: auto;
-        margin-left: 6px;
-        margin-right: 6px;
+        margin-left: 10px;
+        justify-content: center;
+    }
+    
+    .menu li {
+        margin-right: 3px;
     }
 
     .menu a {
-        font-size: 14px;
+        font-size: 16px;
     }
 }
