@@ -108,7 +108,7 @@ header {
     .menu {
         width: 94%;
         height: auto;
-       
+        margin-left: 10px;
     }
 
     .menu a {
