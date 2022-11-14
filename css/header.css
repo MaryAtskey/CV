@@ -48,7 +48,7 @@ header {
     opacity: 0.8;
     margin-top: 20px;
     margin-left: 100px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .menu li {
@@ -108,10 +108,11 @@ header {
     .menu {
         width: 94%;
         height: auto;
-        margin-left: 10px;
+        margin-left: 6px;
+        margin-right: 6px;
     }
 
     .menu a {
-        font-size: 12px;
+        font-size: 14px;
     }
 }
