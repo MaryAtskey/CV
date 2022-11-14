@@ -101,7 +101,7 @@ header {
 
     /* Make font size of the text on the banner smaller */
     .banner-text {
-        font-size: 26pt;
+        font-size: 20pt;
     }
 
     /* Change the position of menu */
@@ -112,6 +112,6 @@ header {
     }
 
     .menu a {
-        font-size: 14px;
+        font-size: 12px;
     }
 }
