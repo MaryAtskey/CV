@@ -110,12 +110,9 @@ header {
         height: auto;
         margin-left: 10px;
     }
-    
-    .menu li {
-        padding-laft: 4px;
-    }
 
     .menu a {
+        margin-left: 10px;
         font-size: 12px;
     }
 }
