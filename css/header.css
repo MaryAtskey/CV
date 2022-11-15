@@ -109,12 +109,11 @@ header {
         width: 94%;
         height: auto;
         margin-left: 3px;
-        justify-content: center;
+        justify-content: space-around;
     }
     
     .menu li {
-        margin-left: 0px;
-        margin-right: 3px;
+        margin-left: 3px;
     }
 
     .menu a {
